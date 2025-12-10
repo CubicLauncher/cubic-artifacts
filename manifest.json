@@ -1,0 +1,127 @@
+{
+  "version": "1.0",
+  "metadata": {
+    "last_updated": "2025-01-15T10:30:00Z",
+    "base_url": "https://raw.githubusercontent.com/CubicLauncher/cubic-artifacts/main"
+  },
+
+  "launcher": {
+    "latest": "2501a",
+    "minimum_supported": "2501a",
+    "versions": [
+      {
+        "version": "2501a",
+        "release_date": "10-12-2025",
+        "type": "alpha",
+        "changelog_url": "https://github.com/CubicLauncher/CubicLauncher/releases/tag/v1.0.0",
+        "artifacts": {
+          "windows-x64": {
+            "url": "{base_url}/launcher/2501a/CubicLauncher-2501a-windows-x64.jar",
+            "size": 17518618,
+            "sha256": "0a92719a3886de91838b7d246ded9d112f91e60c3c7d7cee478985ca7af019b2",
+            "required": true
+          },
+          "linux-x64": {
+            "url": "{base_url}/launcher/2501a/CubicLauncher-2501a-linux-x64.jar",
+            "size": 17518618,
+            "sha256": "0a92719a3886de91838b7d246ded9d112f91e60c3c7d7cee478985ca7af019b2",
+            "required": true
+          },
+          "macos-aarch64": {
+            "url": "{base_url}/launcher/2501a/CubicLauncher-2501a-macos-aarch64.jar",
+            "size": 17518618,
+            "sha256": "0a92719a3886de91838b7d246ded9d112f91e60c3c7d7cee478985ca7af019b2",
+            "required": true
+          }
+        },
+        "breaking_changes": false,
+        "security_fixes": []
+      }
+    ]
+  },
+
+  "runtimes": {
+    "jdk": [
+      {
+        "version": "21",
+        "vendor": "Adoptium",
+        "build": "21.0.9+10",
+        "required_for": ["1.21+"],
+        "platforms": {
+          "windows-x64": {
+            "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-jdk_x64_windows_hotspot_21.0.9_10.zip",
+            "size": 204962060,
+            "sha256": "1c67df516e9795c0b09f5714bfe151da2e3cc988082042f5bbb60d75e4e63fb5",
+            "install_path": "runtimes/jdk-21"
+          },
+          "linux-x64": {
+            "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-jdk_x64_linux_hotspot_21.0.9_10.tar.gz",
+            "size": 207157802,
+            "sha256": "810d3773df7e0d6c4394e4e244b264c8b30e0b05a0acf542d065fd78a6b65c2f",
+            "install_path": "runtimes/jdk-21"
+          },
+          "macos-aarch64": {
+            "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-jdk_aarch64_mac_hotspot_21.0.9_10.tar.gz",
+            "size": 199857923,
+            "sha256": "55a40abeb0e174fdc70f769b34b50b70c3967e0b12a643e6a3e23f9a582aac16",
+            "install_path": "runtimes/jdk-21"
+          }
+        }
+      },
+
+      {
+        "version": "17",
+        "vendor": "Adoptium",
+        "build": "17.0.17+10",
+        "required_for": ["1.18-1.20.4"],
+        "platforms": {
+          "windows-x64": {
+            "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.17%2B10/OpenJDK17U-jdk_x64_windows_hotspot_17.0.17_10.zip",
+            "size": 190698548,
+            "sha256": "dcf0064efec7e515a5e3b56e7532f1a1c125510303c6c9e60af8878e3f7347fe",
+            "install_path": "runtimes/jdk-17"
+          },
+          "linux-x64": {
+            "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.17%2B10/OpenJDK17U-jdk_x64_linux_hotspot_17.0.17_10.tar.gz",
+            "size": 192266948,
+            "sha256": "992f96e7995075ac7636bb1a8de52b0c61d71ed3137fafc979ab96b4ab78dd75",
+            "install_path": "runtimes/jdk-17"
+          },
+          "macos-aarch64": {
+            "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.17%2B10/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.17_10.tar.gz",
+            "size": 185617580,
+            "sha256": "856059de21518c2ff6eba6126ffc93390affe363c3ee205b3146a3bac3be0aa5",
+            "install_path": "runtimes/jdk-17"
+          }
+        }
+      },
+
+      {
+        "version": "8",
+        "vendor": "Adoptium",
+        "build": "8u472-b08",
+        "required_for": ["<1.17"],
+        "platforms": {
+          "windows-x64": {
+            "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u472-b08/OpenJDK8U-jdk_x64_windows_hotspot_8u472b08.zip",
+            "size": 106977960,
+            "sha256": "cbafb089f7c8a3e873607c8f4fe40e4943297f641d27806e055e782c82a33985",
+            "install_path": "runtimes/jdk-8"
+          },
+          "linux-x64": {
+            "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u472-b08/OpenJDK8U-jdk_x64_linux_hotspot_8u472b08.tar.gz",
+            "size": 103123206,
+            "sha256": "5becaa4ac660e844c5a39e2ebc39ff5ac824c37ff1b625af8c8b111dc13c3592",
+            "install_path": "runtimes/jdk-8"
+          },
+          "macos-aarch64": {
+            "url": null,
+            "size": null,
+            "sha256": null,
+            "install_path": "runtimes/jdk-8"
+          }
+        }
+      }
+    ]
+  }
+}
