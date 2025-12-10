@@ -18,19 +18,19 @@
           "windows-x64": {
             "url": "{base_url}/launcher/2501a/CubicLauncher-2501a-windows-x64.jar",
             "size": 17518618,
-            "sha256": "0a92719a3886de91838b7d246ded9d112f91e60c3c7d7cee478985ca7af019b2",
+            "sha256": "f45d8cfe495a3449c8292a38545f2a3d02492b8042a4e3a7dcc54c300fbe7c3e",
             "required": true
           },
           "linux-x64": {
             "url": "{base_url}/launcher/2501a/CubicLauncher-2501a-linux-x64.jar",
             "size": 17518618,
-            "sha256": "0a92719a3886de91838b7d246ded9d112f91e60c3c7d7cee478985ca7af019b2",
+            "sha256": "f45d8cfe495a3449c8292a38545f2a3d02492b8042a4e3a7dcc54c300fbe7c3e",
             "required": true
           },
           "macos-aarch64": {
             "url": "{base_url}/launcher/2501a/CubicLauncher-2501a-macos-aarch64.jar",
             "size": 17518618,
-            "sha256": "0a92719a3886de91838b7d246ded9d112f91e60c3c7d7cee478985ca7af019b2",
+            "sha256": "f45d8cfe495a3449c8292a38545f2a3d02492b8042a4e3a7dcc54c300fbe7c3e",
             "required": true
           }
         },
